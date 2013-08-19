@@ -1,0 +1,73 @@
+body {
+    padding: 2% 3%;	
+}
+
+* {  
+    font-family: Tahoma, Helvetica, sans-serif; 
+    margin: 0; 
+
+}
+
+#content li.todo {
+    list-style-type: none; /* on annule la puce par défaut */
+    background-repeat: no-repeat; /* on annule la répétition par défaut */
+    background-position: left center; /* on positionne où l'on veut */
+    padding-left: 30px; /* pour éviter la superposition du contenu */
+    padding-top: 20px; /* pour éviter la superposition du contenu */
+}
+
+#content li.wrong {
+    list-style-type: none; /* on annule la puce par défaut */
+    background-repeat: no-repeat; /* on annule la répétition par défaut */
+    background-position: left center; /* on positionne où l'on veut */
+    padding-left: 30px; /* pour éviter la superposition du contenu */
+    padding-top: 20px; /* pour éviter la superposition du contenu */
+    background-image: url('../images/red-cross-small.png'); /* on affiche l'image souhaitée */
+}
+
+#content li.done {
+    list-style-type: none; /* on annule la puce par défaut */
+    background-repeat: no-repeat; /* on annule la répétition par défaut */
+    background-position: left center; /* on positionne où l'on veut */
+    padding-left: 30px; /* pour éviter la superposition du contenu */
+    padding-top: 20px; /* pour éviter la superposition du contenu */
+    background-image: url('../images/check-box-small.jpg'); /* on affiche l'image souhaitée */
+}
+
+a { color:black; }
+a:hover { text-decoration: underline; font-weight: bold; }
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0 .5em 0; /* -> 6 */
+}
+
+
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+h3 { font-size: 16px; }
+p  { margin-bottom: 1em;}
+
+.answer{
+    color: #CC3366;
+}
+
+hr{
+    height: 3px;
+    color: #CC3366;
+    background-color: #CC3366;
+    border-width: 0;
+}
+
+th{
+    font-weight:normal;
+    background-color: #FFFFFF;
+    vertical-align: bottom;
+}
+
+.separate{
+    background-color:#CC3366;
+    text-align:center;    
+    color:white;
+}
+
